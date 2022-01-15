@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('../img/home-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: poppins;
+}
+
+header{
+    overflow: hidden;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 15%;
+    
+}
+li, a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color:white;
+    text-decoration: none;
+}
+
+.logo-sec img{
+    cursor: pointer;
+    color: white;
+    width: 60%;
+}
+
+.logo-text{
+    text-align: center;
+}
+
+.navi-sec
+{
+    list-style: none;
+    text-align: center;
+}
+
+.navi-sec li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navi-sec li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navi-sec li a:hover{
+    color: #DA0037;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "best-coffee head-content1"
+    "best-coffee text-content1 ";
+}
+
+
+.best-coffee{
+    grid-area: best-coffee;
+    color: white;
+    
+    padding-top: 19em;
+    padding-left: 7em;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.button-sec{
+    margin-top: 2em;
+    
+}
+
+.button-sec button{
+    padding: 1em 1em;
+    width: 15em;
+    background: #F3971A;
+    border-radius: 1.2em;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.head-content1{
+    grid-area: head-content1;
+    color: white;
+
+    padding-top: 8em;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 9em;
+}
+
+.text-content1{
+    grid-area: text-content1;
+    color: white;
+
+    text-align: center;
+    padding: 0 5em;
+    font-size: .9rem;
+    margin-right: 12em;
+}
+
+button:hover{
+    background: #DA0037;
+}
+
