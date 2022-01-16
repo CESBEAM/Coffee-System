@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eddcd2;;
+}
+
+.main
+{
+    height: 900vh;
+    font-family: poppins;   
+}
+
+.serve{
+    text-align: center;
+    font-family: poppins;  
+    margin-top: 5em;
+  
+}
+
+.container
+{
+    
+    padding: 60px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.content1
+{
+    letter-spacing: 1px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.pic1{
+    flex: 1;
+    border-radius: 3em;
+    color: #181818;
+    padding: 30px;
+    font-size: 12;
+   font-family: poppins;   
+}
+
+.pic2{
+    flex: 1;
+    font-family: poppins;   
+    border-radius: 3em;
+    color: #181818;
+    padding: 30px;
+    font-size: 12;
+}
+
+.pic3{
+    flex: 1;
+    font-family: poppins; 
+    border-radius: 3em;
+    color: #181818;
+    padding: 30px;
+    font-size: 12;
+}
+
+.content2
+{
+    letter-spacing: 1px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.pic4{
+    flex: 1;
+    border-radius: 3em;
+    color: #181818;
+    padding: 30px;
+    font-size: 12;
+    font-family: poppins;
+}
+
+.pic5{
+    flex: 1;
+    font-family: poppins;   
+    border-radius: 3em;
+    color: #181818;
+    padding: 30px;
+    font-size: 12;
+}
+
+.pic6{
+    flex: 1;
+    font-family: poppins; 
+    border-radius: 3em;
+    color: #181818;
+    padding: 30px;
+    font-size: 12;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .main-content{
+        flex-direction: column;
+    }
+}

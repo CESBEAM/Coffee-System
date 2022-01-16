@@ -1,0 +1,94 @@
+body {
+    font-family: poppins;
+   
+}
+
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+   
+}
+
+.sidenav {
+    height: 100%;
+    background-image: url('/img/COFFEE HD.jpg');
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+    background-position: center;
+    background-size: cover;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .order-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 30%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .sidenav img{
+        width: 10em;
+        margin-left: 5em;
+    }
+
+    .sidenav p{ 
+        margin-top: 1em;
+        margin-left: 1.8em;
+        font-size: 2em;
+       
+    }
+
+    .sidenav .signtext{
+     
+        margin-top: 1em;
+        margin-left: 3.1em;
+        font-size: 1em;
+    }
+
+
+    .order-form{
+        margin-top: 10%;
+    }
+
+
+.order-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.order-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    margin-top: 1.5em;
+    background-color: #F3971A !important;
+    color: #fff;
+    width: 26.5em;
+}
+}
+
