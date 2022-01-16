@@ -46,7 +46,7 @@
                  <button type="submit" class="btn btn-black">Create Account</button>
 
                  <div class="dontHave">
-                    Have an already account? <a href="/login.html">Sign In</a>
+                    Have already account? <a href="/login.php">Sign In</a>
                 </div>
 
               </form>

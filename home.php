@@ -16,8 +16,8 @@
         </div>
         <div class="navi-sec">
                 <ul>
-                <li><a href="/login.html">Login</a></li>
-                <li><a href="/register.html">Sign up</a></li>
+                <li><a href="/login.php">Login</a></li>
+                <li><a href="/register.php">Sign up</a></li>
                </ul>
         </div>
     </header>
@@ -28,8 +28,8 @@
                 <h2>Take a sip on our best coffee!</h2>
 
                 <div class="button-sec">
-                    <a href="order.html"><button>Order Online</button></a>
-                    <a href="menu.html"><button>Menu</button></a>
+                    <a href="order.php"><button>Order Online</button></a>
+                    <a href="menu.php"><button>Menu</button></a>
                 </div>
             </div>
 
